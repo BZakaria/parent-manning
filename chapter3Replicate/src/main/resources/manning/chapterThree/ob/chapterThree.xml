@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+
+    <package name="chapter3ob" namespace="/chapterThree" extends="struts-default">
+
+        <action name="RegisterOB">
+            <result>/chapterThree/registrationOB.jsp</result>
+        </action>
+
+        <action name="RegisterOBProcessor" class="manning.chapterThree.ob.RegisterOBProcessor">
+            <result name="input">/chapterThree/registrationOB.jsp</result>
+            <result name="success">/chapterThree/registrationOBFinished.jsp</result>
+        </action>
+
+    </package>
+
+</struts>

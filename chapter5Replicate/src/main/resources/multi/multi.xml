@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+    <package name="multiPart" extends="struts-default" namespace="/multi">
+
+        <action name="MultiArray">
+            <result>/WEB-INF/multiArray.jsp</result>
+        </action>
+        <action name="MultiArrayProcessor" class="multi.MultiArrayProcessor">
+            <result name="input">/WEB-INF/multiArray.jsp</result>
+            <result>/WEB-INF/multiArrayResult.jsp</result>
+        </action>
+
+        <action name="MultiList">
+            <result>/WEB-INF/multiList.jsp</result>
+        </action>
+        <action name="MultiListProcessor" class="multi.MultiListProcessor">
+            <result name="input">/WEB-INF/multiList.jsp</result>
+            <result>/WEB-INF/multiListResult.jsp</result>
+        </action>
+
+
+        <action name="MultiMap">
+            <result>/WEB-INF/multiMap.jsp</result>
+        </action>
+        <action name="MultiMapProcessor" class="multi.MultiMapProcessor">
+            <result name="input">/WEB-INF/multiMap.jsp</result>
+            <result>/WEB-INF/multiMapResult.jsp</result>
+        </action>
+
+
+
+    </package>
+</struts>

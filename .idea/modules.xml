@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chapter3/chapter3.iml" filepath="$PROJECT_DIR$/chapter3/chapter3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3Replicate/chapter3Replicate.iml" filepath="$PROJECT_DIR$/chapter3Replicate/chapter3Replicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4/chapter4.iml" filepath="$PROJECT_DIR$/chapter4/chapter4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4Replicate/chapter4Replicate.iml" filepath="$PROJECT_DIR$/chapter4Replicate/chapter4Replicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4SecondReplicate/chapter4SecondReplicate.iml" filepath="$PROJECT_DIR$/chapter4SecondReplicate/chapter4SecondReplicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5/chapter5.iml" filepath="$PROJECT_DIR$/chapter5/chapter5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5Replicate/chapter5Replicate.iml" filepath="$PROJECT_DIR$/chapter5Replicate/chapter5Replicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-manning.iml" filepath="$PROJECT_DIR$/parent-manning.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+    <package name="auth" namespace="/register" extends="struts-default">
+        <action name="Login">
+            <result>/WEB-INF/auth/login.jsp</result>
+        </action>
+
+        <action name="LoggingProcess" class="com.perso.auth.LoginProcess">
+            <result name="input">/WEB-INF/auth/login.jsp</result>
+            <result>/index.jsp</result>
+        </action>
+    </package>
+
+    <package name="secureBack" namespace="/secure" extends="struts-default">
+
+        <interceptors>
+            <interceptor name="AuthChecker" class="com.perso.auth.AuthChecker"/>
+            <interceptor-stack name="SecureStack">
+                <interceptor-ref name="AuthChecker"/>
+                <interceptor-ref name="defaultStack"/>
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="SecureStack"/>
+
+        <global-results>
+            <result name="login" type="redirect">/register/Login</result>
+        </global-results>
+        <action name="BackEnd">
+            <result>/WEB-INF/backend/index.jsp</result>
+        </action>
+    </package>
+
+</struts>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+
+
+    <package name="chapterThree" namespace="/chapterThree" extends="struts-default">
+
+
+        <action name="RegisterMD">
+            <result>/chapterThree/registrationMD.jsp</result>
+        </action>
+
+
+        <action name="RegisterMDProcessor" class="manning.chapterThree.modelDriven.RegisterMDProcessor">
+            <result >/chapterThree/registrationMDFinished.jsp</result>
+            <result name="input">/chapterThree/registrationMD.jsp</result>
+        </action>
+
+    </package>
+</struts>

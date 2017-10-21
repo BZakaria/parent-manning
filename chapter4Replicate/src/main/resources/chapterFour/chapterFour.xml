@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+    <package name="chapterFour" namespace="/chapterFour" extends="struts-default">
+        <action name="Logging">
+            <result name="success">/WEB-INF/auth/login.jsp</result>
+        </action>
+
+        <action name="LoggingProcess" class="chapterFour.Logging">
+            <result name="input">/WEB-INF/auth/login.jsp</result>
+            <result name="success">/chapterFour/index.jsp</result>
+        </action>
+    </package>
+
+    <package name="chapterFourSecure" namespace="/chapterFour/secure" extends="struts-default">
+        <interceptors>
+            <interceptor name="LoginAuthController" class="chapterFour.utils.AuthController"/>
+            <interceptor-stack name="AuthWrapped">
+                <interceptor-ref name="LoginAuthController"/>
+                <interceptor-ref name="basicStack"/>
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="AuthWrapped"/>
+        <global-results>
+            <result name="login" type="redirect">/chapterFour/Logging.action</result>
+            <result name="error">/WEB-INF/error.jsp</result>
+        </global-results>
+
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error"/>
+        </global-exception-mappings>
+
+        <action name="SecuredAction" class="chapterFour.SecuredAction">
+            <result name="success">/WEB-INF/resultSecured.jsp</result>
+        </action>
+    </package>
+
+</struts>
