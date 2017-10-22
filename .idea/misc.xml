@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/chapter4SecondReplicate" />
     <file type="web" url="file://$PROJECT_DIR$/chapter5" />
     <file type="web" url="file://$PROJECT_DIR$/chapter5Replicate" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter6" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -17,6 +18,13 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/chapter3/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3Replicate/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4Replicate/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4SecondReplicate/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5Replicate/pom.xml" />
         <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
       </set>

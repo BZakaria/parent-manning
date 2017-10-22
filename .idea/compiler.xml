@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chapter5Replicate" />
+        <module name="chapter6" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +17,7 @@
       <module name="chapter4SecondReplicate" target="1.5" />
       <module name="chapter5" target="1.5" />
       <module name="chapter5Replicate" target="1.5" />
+      <module name="chapter6" target="1.5" />
       <module name="config" target="1.5" />
       <module name="parent-manning" target="1.5" />
       <module name="test" target="1.5" />
