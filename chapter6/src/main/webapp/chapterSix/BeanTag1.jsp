@@ -9,7 +9,7 @@
 	<body>
 		<h4>Bean Tag</h4>
 		
-		<s:bean name="org.apache.struts2.util.Counter" id="counter">
+		<s:bean name="org.apache.struts2.util.Counter"  var="counter">
 	    	<s:param name="last" value="100"/>
 		</s:bean>
 		

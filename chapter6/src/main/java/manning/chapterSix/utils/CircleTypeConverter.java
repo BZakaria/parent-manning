@@ -2,9 +2,9 @@ package manning.chapterSix.utils;
 
 import java.util.Map;
 
+import com.opensymphony.xwork2.conversion.TypeConversionException;
 import org.apache.struts2.util.StrutsTypeConverter;
 
-import com.opensymphony.xwork2.util.TypeConversionException;
 
 
 
