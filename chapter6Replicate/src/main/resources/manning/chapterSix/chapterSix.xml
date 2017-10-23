@@ -20,6 +20,20 @@
         <action name="TagSetDemo" class="manning.chapterSix.TagSetDemo">
             <result>/WEB-INF/tagSetDemoResult.jsp</result>
         </action>
+
+        <action name="PushSetDemo" class="manning.chapterSix.TagSetDemo">
+            <result>/WEB-INF/pushSetDemoResult.jsp</result>
+        </action>
+
+        <action name="ActionDemo">
+            <result>/WEB-INF/actionDemoResult.jsp</result>
+        </action>
+
+        <action name="ActionTargetDemo" class="manning.chapterSix.ActionTargetDemo">
+            <result>/WEB-INF/actionTargetDemoResult.jsp</result>
+        </action>
+
+
     </package>
 
 </struts>
