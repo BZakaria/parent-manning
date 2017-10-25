@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+        <package name="def" namespace="/selection" extends="struts-default">
+
+            <action name="Select">
+                <result>/index.jsp</result>
+            </action>
+
+            <action name="Process" class="manning.chapterSeven.Select">
+                <result name="input">/index.jsp</result>
+                <result name="success">/indexSuccess.jsp</result>
+            </action>
+        </package>
+</struts>
