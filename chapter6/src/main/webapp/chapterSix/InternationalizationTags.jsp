@@ -9,7 +9,7 @@
 	<body>
 		<h4>Internationalization Tags</h4>	
 			
-		<s:i18n name="manning.chapterSix.myResourceBundle_tr">
+		<s:i18n name="manning.chapterSix.myResourceBundle_tr" >
 		
 			<!-- The text tag can be used to output a resource inline or,
 			     if the 'id' attribute is used, the returned resource value 

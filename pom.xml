@@ -16,6 +16,8 @@
     <module>chapter5Replicate</module>
     <module>chapter6</module>
     <module>chapter6Replicate</module>
+    <module>chapter7</module>
+    <module>chapter7Replicate</module>
   </modules>
 
     <version>1.0-SNAPSHOT</version>
@@ -76,6 +78,7 @@
                     <server>TomcatServer</server>
                     <update>true</update>
                     <path>/${pom.build.finalName}</path>
+                    <contextReloadable>true</contextReloadable>
                 </configuration>
             </plugin>
         </plugins>

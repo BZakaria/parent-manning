@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chapter7Replicate:war">
+    <output-path>$PROJECT_DIR$/chapter7Replicate/target</output-path>
+    <root id="archive" name="parentManning.war">
+      <element id="artifact" artifact-name="chapter7Replicate:war exploded" />
+    </root>
+  </artifact>
+</component>
