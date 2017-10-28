@@ -13,6 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/chapter6Replicate/chapter6Replicate.iml" filepath="$PROJECT_DIR$/chapter6Replicate/chapter6Replicate.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter7/chapter7.iml" filepath="$PROJECT_DIR$/chapter7/chapter7.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter7Replicate/chapter7Replicate.iml" filepath="$PROJECT_DIR$/chapter7Replicate/chapter7Replicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter8/chapter8.iml" filepath="$PROJECT_DIR$/chapter8/chapter8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter8Replicate/chapter8Replicate.iml" filepath="$PROJECT_DIR$/chapter8Replicate/chapter8Replicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter8ReplicateSecond/chapter8ReplicateSecond.iml" filepath="$PROJECT_DIR$/chapter8ReplicateSecond/chapter8ReplicateSecond.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-manning.iml" filepath="$PROJECT_DIR$/parent-manning.iml" />
     </modules>
   </component>

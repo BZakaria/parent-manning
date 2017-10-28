@@ -12,6 +12,9 @@
     <file type="web" url="file://$PROJECT_DIR$/chapter6Replicate" />
     <file type="web" url="file://$PROJECT_DIR$/chapter7" />
     <file type="web" url="file://$PROJECT_DIR$/chapter7Replicate" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter8" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter8Replicate" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter8ReplicateSecond" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -28,6 +31,11 @@
         <option value="$PROJECT_DIR$/chapter4SecondReplicate/pom.xml" />
         <option value="$PROJECT_DIR$/chapter5/pom.xml" />
         <option value="$PROJECT_DIR$/chapter5Replicate/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6Replicate/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7Replicate/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter8Replicate/pom.xml" />
         <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
       </set>

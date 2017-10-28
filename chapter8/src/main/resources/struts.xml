@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+    <constant name="struts.devMode" value="${developper}"/>
+
+    <!--
+    <include file="manning/chapterThree/chapterThree.xml" />
+    -->
+    <include file="manning/chapterEight/chapterEight.xml" />
+</struts>
