@@ -18,6 +18,9 @@
     <module>chapter6Replicate</module>
     <module>chapter7</module>
     <module>chapter7Replicate</module>
+    <module>chapter8</module>
+    <module>chapter8Replicate</module>
+    <module>chapter8ReplicateSecond</module>
   </modules>
 
     <version>1.0-SNAPSHOT</version>

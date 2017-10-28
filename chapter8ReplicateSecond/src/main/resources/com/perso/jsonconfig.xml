@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+
+    <package name="json" namespace="/json" extends="struts-default">
+
+        <result-types>
+            <result-type name="jsonResult" class="com.perso.tojson.result.JSONResult"/>
+        </result-types>
+
+        <action name="GetJSON" class="com.perso.tojson.JSONProcessor">
+            <result type="jsonResult">2</result>
+        </action>
+
+        <action name="ForwardTest" class="com.perso.forward.ForwardTest">
+            <result>/anotherServlet</result>
+        </action>
+    </package>
+
+</struts>
