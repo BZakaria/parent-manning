@@ -12,10 +12,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chapter8ReplicateSecond" />
+        <module name="chapter10AnotherReplicate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chapter10" target="1.5" />
+      <module name="chapter10AnotherReplicate" target="1.5" />
+      <module name="chapter10Replicate" target="1.5" />
+      <module name="chapter10Replicatee" target="1.5" />
       <module name="chapter3" target="1.5" />
       <module name="chapter3Replicate" target="1.5" />
       <module name="chapter4" target="1.5" />

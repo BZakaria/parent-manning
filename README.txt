@@ -1,1 +1,1 @@
-mvn archetype:generate -DarchetypeCatalog=local -DarchetypeGroupId=com.perso.manning -DarchetypeArtifactId=archetype-struts-manning -DarchetypeVersion=1.0 -DgroupId=com.perso.manning -DartifactId=chapter8ReplicateSecond -DinteractiveMode=false -Dversion=1.0
+mvn archetype:generate -DarchetypeCatalog=local -DarchetypeGroupId=com.perso.manning -DarchetypeArtifactId=archetype-struts-manning -DarchetypeVersion=1.0 -DgroupId=com.perso.manning -DartifactId=chapter10AnotherReplicate -DinteractiveMode=false -Dversion=1.0

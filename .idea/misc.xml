@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/chapter10" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter10AnotherReplicate" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter10Replicate" />
+    <file type="web" url="file://$PROJECT_DIR$/chapter10Replicatee" />
     <file type="web" url="file://$PROJECT_DIR$/chapter3" />
     <file type="web" url="file://$PROJECT_DIR$/chapter3Replicate" />
     <file type="web" url="file://$PROJECT_DIR$/chapter4" />
@@ -24,6 +28,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/chapter10/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter10Replicate/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter10Replicatee/pom.xml" />
         <option value="$PROJECT_DIR$/chapter3/pom.xml" />
         <option value="$PROJECT_DIR$/chapter3Replicate/pom.xml" />
         <option value="$PROJECT_DIR$/chapter4/pom.xml" />
@@ -35,7 +42,9 @@
         <option value="$PROJECT_DIR$/chapter6Replicate/pom.xml" />
         <option value="$PROJECT_DIR$/chapter7/pom.xml" />
         <option value="$PROJECT_DIR$/chapter7Replicate/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter8/pom.xml" />
         <option value="$PROJECT_DIR$/chapter8Replicate/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter8ReplicateSecond/pom.xml" />
         <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
       </set>

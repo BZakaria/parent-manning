@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+
+    <package name="def" namespace="/def" extends="struts-default">
+
+        <action name="GetValidate">
+            <result>/WEB-INF/index.jsp</result>
+        </action>
+
+        <action name="GetValidateProcess" class="com.perso.validation.GetValidateProcess">
+            <result name="input">/WEB-INF/index.jsp</result>
+            <result>/WEB-INF/result.jsp</result>
+        </action>
+
+
+        <action name="GetValidateUser">
+            <result>/WEB-INF/index2.jsp</result>
+        </action>
+        <action name="GetValidateProcessUser" class="com.perso.validation.GetValidateProcessUser">
+            <result name="input">/WEB-INF/index2.jsp</result>
+            <result>/WEB-INF/result2.jsp</result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+
+
+    <package name="default" namespace="/def" extends="struts-default">
+        <action name="TryTo">
+            <result>/WEB-INF/index.jsp</result>
+        </action>
+           <action name="TryToProcess" class="com.perso.TryToProcess">
+            <result name="input">/WEB-INF/index.jsp</result>
+            <result name="success">/WEB-INF/result.jsp</result>
+        </action>
+    </package>
+
+</struts>

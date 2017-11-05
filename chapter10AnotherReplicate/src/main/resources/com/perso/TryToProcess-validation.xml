@@ -1,0 +1,29 @@
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://web.archive.org/web/20090222210559/http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="username">
+        <field-validator type="requiredstring">
+            <message>This field ivns required, please enter a random value!</message>
+        </field-validator>
+        <field-validator type="stringlength">
+            <param name="minLength">3</param>
+            <message>The length of the username should be at least 3</message>
+        </field-validator>
+    </field>
+
+    <field name="age">
+        <field-validator type="int">
+            <param name="min">18</param>
+            <param name="max">180</param>
+            <message>Age should be an integer (18 - 180)</message>
+        </field-validator>
+    </field>
+    
+    <field name="birthdate">
+        <field-validator type="date">
+            <message>This should be date man!</message>
+        </field-validator>
+    </field>
+
+</validators>
