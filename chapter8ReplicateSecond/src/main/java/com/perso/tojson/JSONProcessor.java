@@ -4,7 +4,6 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class JSONProcessor extends ActionSupport {
 
-//TODO user lombok instead
     private  String username;
 
     public String getUsername() {
